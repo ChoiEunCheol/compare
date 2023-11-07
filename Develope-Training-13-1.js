@@ -30,5 +30,5 @@ const compareFile = (operator, operand) => {
   }
 };
 
-const areFilesEqual = compare('operator.txt','operand.txt');
+const areFilesEqual = compareFile('operator.txt','operand.txt');
 console.log(areFilesEqual);
